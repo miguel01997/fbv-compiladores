@@ -1,0 +1,12 @@
+#Tue Nov 01 11:04:29 GMT-03:00 2011
+//src/expr.cup/cup-compact-red=false
+//src/expr.cup/cup-debug=false
+//src/expr.cup/cup-expected-conflicts=0
+//src/expr.cup/cup-no-positions=false
+//src/expr.cup/cup-no-scanner=false
+//src/expr.cup/cup-non-terms=false
+//src/expr.cup/cup-output=src
+//src/expr.cup/cup-parser-class=ExprCup
+//src/expr.cup/cup-symbols-class=ExprSym
+//src/expr.cup/cup-symbols-if=true
+eclipse.preferences.version=1
