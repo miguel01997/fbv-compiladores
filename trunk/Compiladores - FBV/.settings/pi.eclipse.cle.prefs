@@ -1,4 +1,28 @@
-#Tue Nov 01 11:04:29 GMT-03:00 2011
+#Sun Nov 06 23:11:17 GMT-03:00 2011
+//src/br/fbv/compiladores/projeto/Lexer.lex/lex-code-method=0
+//src/br/fbv/compiladores/projeto/Lexer.lex/lex-comply-jlex=false
+//src/br/fbv/compiladores/projeto/Lexer.lex/lex-output=src
+//src/br/fbv/compiladores/projeto/Lexer.lex/lex-skip-min=false
+//src/br/fbv/compiladores/projeto/Parser.cup/cup-compact-red=false
+//src/br/fbv/compiladores/projeto/Parser.cup/cup-debug=true
+//src/br/fbv/compiladores/projeto/Parser.cup/cup-expected-conflicts=0
+//src/br/fbv/compiladores/projeto/Parser.cup/cup-no-positions=false
+//src/br/fbv/compiladores/projeto/Parser.cup/cup-no-scanner=true
+//src/br/fbv/compiladores/projeto/Parser.cup/cup-non-terms=true
+//src/br/fbv/compiladores/projeto/Parser.cup/cup-output=src
+//src/br/fbv/compiladores/projeto/Parser.cup/cup-parser-class=ParserCup
+//src/br/fbv/compiladores/projeto/Parser.cup/cup-symbols-class=ParserSym
+//src/br/fbv/compiladores/projeto/Parser.cup/cup-symbols-if=true
+//src/br/fbv/compiladores/projeto/jflex/Lexer.cup/cup-compact-red=false
+//src/br/fbv/compiladores/projeto/jflex/Lexer.cup/cup-debug=false
+//src/br/fbv/compiladores/projeto/jflex/Lexer.cup/cup-expected-conflicts=0
+//src/br/fbv/compiladores/projeto/jflex/Lexer.cup/cup-no-positions=false
+//src/br/fbv/compiladores/projeto/jflex/Lexer.cup/cup-no-scanner=false
+//src/br/fbv/compiladores/projeto/jflex/Lexer.cup/cup-non-terms=false
+//src/br/fbv/compiladores/projeto/jflex/Lexer.cup/cup-output=src
+//src/br/fbv/compiladores/projeto/jflex/Lexer.cup/cup-parser-class=LexerCup
+//src/br/fbv/compiladores/projeto/jflex/Lexer.cup/cup-symbols-class=LexerSym
+//src/br/fbv/compiladores/projeto/jflex/Lexer.cup/cup-symbols-if=true
 //src/expr.cup/cup-compact-red=false
 //src/expr.cup/cup-debug=false
 //src/expr.cup/cup-expected-conflicts=0
