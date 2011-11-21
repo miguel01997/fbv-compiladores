@@ -1,0 +1,93 @@
+Projeto
+Pontuação = 5 pontos.
+
+Criar um compilador para a linguagem Xml-Calculador. 
+Exemplos de entrada e saida estão disponiveis a baixo.
+
+Requisitos
+1- O compilador deve ser construido de forma modular. ou seja NÃO DEVE SER FEITO em apenas 1 classe.
+2- o compilador deve aceitar como entrada um ARQUIVO do tipo .txt;
+3- o compilador deve escrever no console a solução
+4- o compilador DEVE SER CONSTRUIDO RESPEITANDO-SE AS ETAPAS VISTAS EM SALA.
+5- NÃO SERÁ ACEITO UM COMPILADOR QUE "FUNCIONA" MAS NAO POSSUI OS ANALISADORES!!!!!!!!!!!!!!!!!
+6- o projeto deverá ser apresentado!
+
+Exemplos
+<Programa>
+	<Variavel>
+		<Inteiro>A</Inteiro>
+		<Texto>Msg</Texto>
+	</Variavel>
+	<Operacao>
+		<Soma>
+			<valor>1</valor>
+			<valor>1</valor>
+			<valor>1</valor>
+			<valor>1</valor>
+		</Soma>
+		<Resultado>A</Resultado>
+	</Operacao>
+
+	<Resposta>
+		<Texto>Msg</Texto>
+		<Texto>=</Texto>
+		<valor>A</valor>
+	</Resposta>
+</Programa>
+
+Saida:
+msg= +1+1+1+1
+
+
+
+<Programa>
+	<Variavel>
+		<Inteiro>A</Inteiro>
+		<Inteiro>B</Inteiro>
+		<Inteiro>C</Inteiro>
+	</Variavel>
+	<Operacao>
+		<Soma>
+			<valor>1</valor>
+			<valor>1</valor>
+			<valor>1</valor>
+			<valor>1</valor>
+		</Soma>
+		<Resultado>A</Resultado>
+	</Operacao>
+
+	<Operacao>
+		<Soma>
+			<valor>1</valor>
+			<valor>1</valor>
+			<valor>1</valor>
+			<valor>1</valor>
+		</Soma>
+		<Soma>
+			<valor>3</valor>
+		</Soma>
+		<Sub>
+			<valor>4</valor>
+		</Sub>
+		<Resultado>B</Resultado>
+	</Operacao>
+
+	<Operacao>
+		<Soma>
+			<valor>A</valor>
+			<valor>B</valor>
+
+		</Soma>
+		<Resultado>C</Resultado>
+	</Operacao>
+
+
+
+	<Resposta>
+		<Texto>Resultado</Texto>
+		<valor>C</valor>
+	</Resposta>
+</Programa>
+
+Saida:
+Resultado C = +1+1+1+1+3-4 
