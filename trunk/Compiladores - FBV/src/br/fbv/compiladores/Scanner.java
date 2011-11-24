@@ -31,34 +31,34 @@ public class Scanner {
 		tkLexico = new HashMap<String, String>();
 		
 		tkLexico.put("<Programa>", Token.PROGRAMA_OPEN);
-//		tkLexico.put("</Programa>", Token.PROGRAMA_CLOSE);
-//		
-//		tkLexico.put("<Variavel>", Token.VARIAVEL_OPEN);
-//		tkLexico.put("</Variavel>", Token.VARIAVEL_CLOSE);
-//		
-//		tkLexico.put("<Operacao>", Token.OPERACAO_OPEN);
-//		tkLexico.put("</Operacao>", Token.OPERACAO_CLOSE);
-//		
-//		tkLexico.put("<Resposta>", Token.RESPOSTA_OPEN);
-//		tkLexico.put("</Resposta>", Token.RESPOSTA_CLOSE);
-//		
-//		tkLexico.put("<Inteiro>", Token.INTEIRO_OPEN);
-//		tkLexico.put("</Inteiro>", Token.INTEIRO_CLOSE);
-//		
-//		tkLexico.put("<Texto>", Token.TEXTO_OPEN);
-//		tkLexico.put("</Texto>", Token.TEXTO_CLOSE);
-//		
-//		tkLexico.put("<Soma>", Token.SOMA_OPEN);
-//		tkLexico.put("</Soma>", Token.SOMA_CLOSE);
-//		
-//		tkLexico.put("<Sub>", Token.SUB_OPEN);
-//		tkLexico.put("</Sub>", Token.SUB_CLOSE);
-//		
-//		tkLexico.put("<Valor>", Token.VALOR_OPEN);
-//		tkLexico.put("</Valor>", Token.VALOR_CLOSE);
-//		
-//		tkLexico.put("<Resultado>", Token.RESULTADO_OPEN);
-//		tkLexico.put("</Resultado>", Token.RESULTADO_CLOSE);
+		tkLexico.put("</Programa>", Token.PROGRAMA_CLOSE);
+		
+		tkLexico.put("<Variavel>", Token.VARIAVEL_OPEN);
+		tkLexico.put("</Variavel>", Token.VARIAVEL_CLOSE);
+		
+		tkLexico.put("<Operacao>", Token.OPERACAO_OPEN);
+		tkLexico.put("</Operacao>", Token.OPERACAO_CLOSE);
+		
+		tkLexico.put("<Resposta>", Token.RESPOSTA_OPEN);
+		tkLexico.put("</Resposta>", Token.RESPOSTA_CLOSE);
+		
+		tkLexico.put("<Inteiro>", Token.INTEIRO_OPEN);
+		tkLexico.put("</Inteiro>", Token.INTEIRO_CLOSE);
+		
+		tkLexico.put("<Texto>", Token.TEXTO_OPEN);
+		tkLexico.put("</Texto>", Token.TEXTO_CLOSE);
+		
+		tkLexico.put("<Soma>", Token.SOMA_OPEN);
+		tkLexico.put("</Soma>", Token.SOMA_CLOSE);
+		
+		tkLexico.put("<Sub>", Token.SUB_OPEN);
+		tkLexico.put("</Sub>", Token.SUB_CLOSE);
+		
+		tkLexico.put("<Valor>", Token.VALOR_OPEN);
+		tkLexico.put("</Valor>", Token.VALOR_CLOSE);
+		
+		tkLexico.put("<Resultado>", Token.RESULTADO_OPEN);
+		tkLexico.put("</Resultado>", Token.RESULTADO_CLOSE);
 		
 	} // end constructor Scanner
 	
@@ -127,16 +127,16 @@ public class Scanner {
 	} // end method lerCaratere
 	
 	public Token Identificador(String lexema) throws IOException {
-		
 		if(Character.isDefined(vazio)) {
 			lexema += vazio;
 			vazio = lerCaractere();
 			coluna++;
 			
-			while (Character.isLetterOrDigit(vazio) || Character.isDefined('/') || Character.isDefined('>')) {
+			while (Character.isLetterOrDigit(vazio) || Character.isDefined('/') || Character.isDefined('>')) {	
 				lexema += vazio;
 				vazio = lerCaractere();
 				coluna++;
+				
 				if(vazio == '>') {
 					lexema += vazio;
 					vazio = lerCaractere();

@@ -2,14 +2,14 @@ package br.fbv.compiladores;
 
 public class Simbolo {
 
-	private int tipo;
+	private String tipo;
 	private String lexema;
 	
 	/**
 	 * @param tipo
 	 * @param lexema
 	 */
-	public Simbolo(int tipo, String lexema) {
+	public Simbolo(String tipo, String lexema) {
 		super();
 		this.tipo = tipo;
 		this.lexema = lexema;
@@ -18,7 +18,7 @@ public class Simbolo {
 	/**
 	 * @return the tipo
 	 */
-	public int getTipo() {
+	public String getTipo() {
 		return tipo;
 	}
 
@@ -32,7 +32,7 @@ public class Simbolo {
 	/**
 	 * @param tipo the tipo to set
 	 */
-	public void setTipo(int tipo) {
+	public void setTipo(String tipo) {
 		this.tipo = tipo;
 	}
 

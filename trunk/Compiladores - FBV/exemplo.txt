@@ -1,8 +1,21 @@
-10 + 20; 
+<Programa>
+	<Variavel>
+		<Inteiro>A</Inteiro>
+		<Texto>Msg</Texto>
+	</Variavel>
+	<Operacao>
+		<Soma>
+			<valor>1</valor>
+			<valor>1</valor>
+			<valor>1</valor>
+			<valor>1</valor>
+		</Soma>
+		<Resultado>A</Resultado>
+	</Operacao>
 
-4 +
-  5 *
-    6;
-
-
-1000 + 1 / 5;
+	<Resposta>
+		<Texto>Msg</Texto>
+		<Texto>=</Texto>
+		<valor>A</valor>
+	</Resposta>
+</Programa>
