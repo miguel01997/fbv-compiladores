@@ -6,37 +6,36 @@ public class Token {
 	 * Definição dos Tokens
 	 */
 	public static final String PROGRAMA_OPEN 	= "<Programa>";
-	public static final int PROGRAMA_CLOSE 	= 2;
+	public static final String PROGRAMA_CLOSE 	= "</Programa>";
 	
-	public static final int VARIAVEL_OPEN	= 3;
-	public static final int VARIAVEL_CLOSE	= 4;
+	public static final String VARIAVEL_OPEN	= "<Variavel>";
+	public static final String VARIAVEL_CLOSE	= "</Variavel>";
 	
-	public static final int OPERACAO_OPEN	= 5;
-	public static final int OPERACAO_CLOSE	= 6;
+	public static final String OPERACAO_OPEN	= "<Operacao>";
+	public static final String OPERACAO_CLOSE	= "</Operacao>";
 	
-	public static final int RESPOSTA_OPEN	= 7;
-	public static final int RESPOSTA_CLOSE	= 8;
+	public static final String RESPOSTA_OPEN	= "<Resposta>";
+	public static final String RESPOSTA_CLOSE	= "</Resposta>";
 	
-	public static final int INTEIRO_OPEN	= 9;
-	public static final int INTEIRO_CLOSE	= 10;
+	public static final String INTEIRO_OPEN		= "<Inteiro>";
+	public static final String INTEIRO_CLOSE	= "</Inteiro>";
 	
-	public static final int TEXTO_OPEN		= 11;
-	public static final int TEXTO_CLOSE		= 12;
+	public static final String TEXTO_OPEN		= "<Texto>";
+	public static final String TEXTO_CLOSE		= "</Texto>";
 	
-	public static final int SOMA_OPEN		= 13;
-	public static final int SOMA_CLOSE		= 14;
+	public static final String SOMA_OPEN		= "<Soma>";
+	public static final String SOMA_CLOSE		= "</Soma>";
 	
-	public static final int SUB_OPEN		= 15;
-	public static final int SUB_CLOSE		= 16;
+	public static final String SUB_OPEN			= "<Sub>";
+	public static final String SUB_CLOSE		= "</Sub>";
 	
-	public static final int VALOR_OPEN		= 17;
-	public static final int VALOR_CLOSE		= 18;
+	public static final String VALOR_OPEN		= "<Valor>";
+	public static final String VALOR_CLOSE		= "</Valor>";
 	
-	public static final int RESULTADO_OPEN	= 19;
-	public static final int RESULTADO_CLOSE	= 20;
+	public static final String RESULTADO_OPEN	= "<Resultado>";
+	public static final String RESULTADO_CLOSE	= "</Resultado>";
 	
-	public static final int error 	= 21;
-	public static final String eof 	= "";
+	public static final String eof 	 = "";
 	
 	private String classificacao;
 	private int coluna;
