@@ -5,7 +5,7 @@ public class Token {
 	/*
 	 * Definição dos Tokens
 	 */
-	public static final int PROGRAMA_OPEN 	= 1;
+	public static final String PROGRAMA_OPEN 	= "<Programa>";
 	public static final int PROGRAMA_CLOSE 	= 2;
 	
 	public static final int VARIAVEL_OPEN	= 3;
@@ -36,9 +36,9 @@ public class Token {
 	public static final int RESULTADO_CLOSE	= 20;
 	
 	public static final int error 	= 21;
-	public static final int eof 	= 22;
+	public static final String eof 	= "";
 	
-	private int classificacao;
+	private String classificacao;
 	private int coluna;
 	private int linha;
 	private String lexema;
@@ -49,7 +49,7 @@ public class Token {
 	 * @param linha
 	 * @param lexema
 	 */
-	public Token(int classificacao, int coluna, int linha, String lexema) {
+	public Token(String classificacao, int coluna, int linha, String lexema) {
 		super();
 		this.classificacao = classificacao;
 		this.coluna = coluna;
@@ -60,7 +60,7 @@ public class Token {
 	/**
 	 * @return the classificacao
 	 */
-	public int getClassificacao() {
+	public String getClassificacao() {
 		return classificacao;
 	}
 
@@ -88,7 +88,7 @@ public class Token {
 	/**
 	 * @param classificacao the classificacao to set
 	 */
-	public void setClassificacao(int classificacao) {
+	public void setClassificacao(String classificacao) {
 		this.classificacao = classificacao;
 	}
 
