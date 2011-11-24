@@ -17,7 +17,7 @@ public class Main {
 		// TODO Auto-generated method stub
 		Parser parser = null;
 		FileInputStream arquivo;
-		String nome=args[0];
+		String nome = "exemplo.txt";
 
 		try {
 			arquivo	= new FileInputStream(nome);
