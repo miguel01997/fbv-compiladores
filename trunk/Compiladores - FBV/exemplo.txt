@@ -1,8 +1,8 @@
 <Programa>
-	<Variavel>
+	Variavel>
 		<Inteiro>A</Inteiro>
 		<Texto>Msg</Texto>
-	</Variavel>
+	</Varavel>
 	<Operacao>
 		<Soma>
 			<valor>1</valor>

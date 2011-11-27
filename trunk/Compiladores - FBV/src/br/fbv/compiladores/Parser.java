@@ -37,7 +37,6 @@ public class Parser {
 				if(token.getClassificacao().equals(Token.INTEIRO_OPEN) || token.getClassificacao().equals(Token.TEXTO_OPEN)) {
 					if(token.getClassificacao().equals(Token.INTEIRO_OPEN)) {
 						tabela.push(new Simbolo(token.INTEIRO_OPEN, token.toString()));
-						System.out.println(token.getLexema());
 					}
 				} else {
 					throw new ExceptionSintatico("Erro - Esperado Token <Inteiro> ou <Texto> " + "\n\tLinha: " + token.getLinha() + "\tColuna: " + token.getColuna());
